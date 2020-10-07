@@ -37,11 +37,11 @@ public class ScannerExample {
 	}
 	
 	public static void main(String[] args) {
-		List<String> utf8_strings = readFile("hello-utf8.txt", "utf8");
+		List<String> utf8_strings = readFile("dostoyevsky-utf8.txt", "utf-8");
 		for(String s : utf8_strings) {
 			System.out.println(s);
 		}
-		List<String> utf16_strings = readFile("hello-utf16.txt", "utf-16");
+		List<String> utf16_strings = readFile("dostoyevsky-utf16.txt", "utf-16");
 		for(String s : utf16_strings) {
 			System.out.println(s);
 		}

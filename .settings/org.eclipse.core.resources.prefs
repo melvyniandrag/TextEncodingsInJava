@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/StringLength.java=UTF-8
+encoding//src/WriteUTF16.java=UTF-8
+encoding//src/WriteUTF8.java=UTF-8
+encoding/utf16_output.txt=UTF-8
+encoding/utf8_output.txt=UTF-8
